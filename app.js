@@ -23,7 +23,7 @@ const playPause = () => {
         interval = setInterval(() => {
             x -= 90;
             rotate();
-        }, 3000);
+        }, 5000);
         changePlayPause();
         bool = true;
     } else {
